@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container-fluid {
+  width: 300px;
+  margin: 20px auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  
+}
+
+#taskInput{
+ border-radius: 25px;
+ border: 2px solid rgb(0, 0, 0);
+ padding-left: 15px;
+}
+
+li {
+  padding: 5px 10px;
+  border: 2px solid #000000;
+  border-radius: 25px;
+  margin: 10px 0 5px;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #f2f2f2;
+}
+
+button {
+  margin-top: 10px;
+  margin-left: 5px;
+  border-radius: 15px;
+  background-color: rgb(58, 62, 59);
+  color: #f9f3f3;
+}
+
+.edit-btn,
+.delete-btn {
+  margin-left: 10px;
+  cursor: pointer;
+  
+}
